@@ -1,0 +1,8 @@
+#include "stdafx.h"
+#include <iostream> //codigo de lenguaje
+#include "conio.h"
+using namespace std; //para mostrar en la pantalla
+void main() {
+	cout<< "hola mundo"<<endl;
+	getch();
+}
