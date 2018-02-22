@@ -1,0 +1,19 @@
+#include "stdafx.h"
+
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main(){
+	float b,a,c,x;
+	cout<<"ingrese b"<<endl;
+	cin>>b;
+	cout<<"ingrese a"<<endl;
+	cin>>a;
+	cout<<"ingrese c"<<endl;
+	cin>>c;
+	x=pow(b,2)-4*a*c;
+	cout<<"el discriminante es:"<<x;
+	cout<<endl;
+	getch();
+}
